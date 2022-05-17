@@ -1,0 +1,681 @@
+html{
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #f4edea;
+    
+    }
+    
+    .body{
+      background-color: #f4edea;
+    }
+    
+    .footer{
+      background-color: #750D37;
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+    }
+
+    .title{
+      padding-left: 5%;
+      font-size: 40px;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      text-align: center;
+    }
+    
+    hr{
+      width: 85%;
+      text-align: center;
+      border: 1px solid black;
+      margin-bottom: 30px;
+    }
+    
+    .fa-question-circle{
+      font-size: 30px;
+      color: white;
+      padding: 7px;
+      margin-left: 95%;
+    }
+
+
+
+    .welcome1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 0px;
+    padding-top: 250px;
+    font-size:35px;
+    color: black
+    }
+    
+    .welcome{
+        text-align: center;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        margin-top: 10px;
+        font-size:100px;
+        font-size:9vw;
+        color: black;
+        }
+        .welcome:hover{
+          font-size: 200px;
+          transition: 1.5s; 
+        }
+    
+    
+        .homepic{
+            width: 500x;
+            height: 450px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 50%;
+            height: auto;
+            }
+        
+            #mySidenav a {
+                position: absolute; /* Position them relative to the browser window */
+                left: -110px; /* Position them outside of the screen */
+                transition: 0.3s; /* Add transition on hover */
+                padding: 12px; /* 15px padding */
+                width: 145px; /* Set a specific width */
+                text-decoration: none; /* Remove underline */
+                font-size: 20px; /* Increase font size */
+                color: white; /* Black text color */
+                border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+                font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+              }
+    
+              #mySidenav a:hover {
+                left: 0; /* On mouse-over, make the elements appear as they should */
+              }
+              
+              /* The index link: 20px from the top with a background */
+              #index {
+                top: 30px;
+                background-color: #750D37; /* Papaya Whip */
+              }
+              
+              #atd {
+                top: 100px;
+                background-color:  #750D37; /* Papaya Whip */
+              }
+              
+              #mark {
+                top: 170px;
+                background-color:  #750D37; /* Papaya Whip  */
+              }
+              
+              #schedule{
+                top: 240px;
+                background-color:  #750D37 /* Papaya Whip */
+              }
+  
+              .fa-home{
+                font-size: 20px;
+                padding-left: 60px;
+                color: white;
+              }
+    
+              .fa-user-circle{
+                font-size: 20px;
+                padding-left: 15px;
+                color: white;
+              }
+    
+    
+             .fa-clipboard-list{
+               font-size: 20px;
+               padding-left: 40px;
+               color: white;
+             }
+    
+             .fa-pencil-alt{
+              font-size: 20px;
+              padding-left: 24px;
+              color: white;
+             }
+    
+        
+
+    
+    /* Planner Page */
+    
+    /* Planner (Table)*/
+    
+             table {
+              font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+              width: 80%;
+              margin-left: 200px;
+            }
+    
+            .plan-margin{
+              margin-top: 50px;
+            }
+    
+            th{
+              border: 1px solid #dddddd;
+              text-align: left;
+              padding: 8px; 
+            }
+            
+            td{
+              border: 1px solid white;
+              text-align: left;
+              padding: 8px;
+              height: 100px;
+            }
+            
+           
+            .planner{
+              padding-left: 200px;
+              text-align: center;
+              color: #294c60;
+            }
+    
+            .plan-row{
+              text-align: center;
+              font-size: 20px;
+              background-color: #294c60;
+              color: aliceblue;
+              padding-bottom: 20px;
+            }
+    
+            .atdbody{
+              background-color: #adb6c4;
+            }
+    
+            .classes{
+              width: 150px;
+              text-align: center;
+              background-color: #294c60;
+              color: aliceblue; 
+              padding-bottom: 20px;
+              font-size: 20px;
+            }
+    
+            .plan-color{
+              background-color: #adb6c4;
+            }
+    
+    
+          /*Attendance Page */
+    
+          .atdtitle{
+            padding-left: 200px;
+          }
+    
+          .atd2{
+             color: black;
+             
+          }
+    
+          .class-head{
+            width: 60%
+          }
+    
+          .atdcol{
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+            height: 30px;
+          }
+          table {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            width: 80%;
+            margin-left: 200px;
+          }
+    
+          th{
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px; 
+          }
+         
+          .atdcol-head{
+            font-weight: bold;
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+            height: 60px;
+          }
+    
+          /* Attendance Flip cards */
+          .flip-card {
+      background-color: transparent;
+      width: 200px;
+      height: 200px;
+      padding-left: 200px;
+      padding-top: 5%;
+    }
+    
+    .flip-card-inner {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      text-align: center;
+      transition: transform 0.6s;
+      transform-style: preserve-3d;
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    }
+    
+    .flip-card:hover .flip-card-inner {
+      transform: rotateY(180deg);
+    }
+    
+    .flip-card-front, .flip-card-back {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      -webkit-backface-visibility: hidden;
+      backface-visibility: hidden;
+    }
+    
+    .flip-card-front {
+      background-image:url("Flip-Card\ bg.webp");
+      color: white;
+    }
+    
+    .flip-card-back {
+      background-color: #FFEFD3;
+      color: black;
+      transform: rotateY(180deg);
+    }
+    
+    /* Schedule page */
+    
+    
+    .sch{
+      background-color: #f4edea;
+      border: 1px solid #12263a;
+      margin-bottom: 100px;
+    }
+    
+    .sch-head{
+      border: 1px solid #12263a;
+      text-align: left;
+      padding: 8px; 
+      background-color: #12263a;
+      color: aliceblue;
+      width: 15%;
+    }
+    
+    .sch-table-top{
+      font-weight: bold;
+      background-color: #f4edea;
+      height: 150px;
+      width:5%;
+      border: 1px solid #12263a;
+    }
+
+
+    .calender{
+      text-align: center;
+      color: black;
+      padding-top: 10px;
+      font-size: 30px;
+    }
+    
+    table {
+      border-collapse: collapse;
+      background: white;
+      color: black;
+      background-color:lightgrey; 
+      text-align:center;
+    }
+    
+    
+    .cal-header{
+      color: white; 
+      background: #001B2E;
+      font-weight: bold;
+      text-align: center;
+      background-color: #294c60;
+    }
+    
+    .cal-color{
+      background-color: #ADB6C4;
+    }
+    
+    caption{
+      text-align: top;
+    }
+    
+    .cal-{
+      border-collapse: collapse;
+      background-color: grey;
+      color: black;
+      text-align:center;
+    }
+    
+    /*To-do list */
+    
+    /* Basic Style */
+    
+    body {
+        background: #fff;
+        color: #333;
+        font-family: Lato, sans-serif;
+        background-color:#e4e4e4;
+    }
+    
+    .container {
+        display: block;
+        width: 400px;
+        margin: 10px auto 100px;
+        background-color:#fff;
+        padding:0px 10px 10px 10px;
+        border-radius:10px
+    }
+    
+    h2 {
+        text-align:center;
+        padding-top:10px;
+        margin-bottom:0px;
+    }
+    
+    ul {
+        margin: 0;
+        padding: 0;
+    }
+    
+    li * {
+        float: left;
+    }
+    
+    li,
+    h3 {
+        clear: both;
+        list-style: none;
+    }
+    
+    input,
+    button {
+        outline: none;
+    }
+    
+    button {
+        background: none;
+        border: 0px;
+        color: #888;
+        font-size: 15px;
+        width: 60px;
+        margin: 10px 0 0;
+        font-family: Lato, sans-serif;
+        cursor: pointer;
+    }
+    
+    button:hover {
+        color: #333;
+    }
+    
+    
+    /* Heading */
+    
+    h3,
+    label[for='new-task'] {
+        color: #333;
+        font-weight: 700;
+        font-size: 15px;
+        border-bottom: 2px solid #333;
+        padding: 20px 0 10px;
+        margin: 0;
+        text-transform: uppercase;
+    }
+    
+    input[type="text"] {
+        margin: 0;
+        font-size: 18px;
+        line-height: 18px;
+        height: 18px;
+        padding: 10px;
+        border: 1px solid #ddd;
+        background: #fff;
+        border-radius: 6px;
+        font-family: Lato, sans-serif;
+        color: #888;
+    }
+    
+    input[type="text"]:focus {
+        color: #333;
+    }
+    
+    
+    /* New Task */
+    
+    label[for='new-task'] {
+        display: block;
+        margin: 0 0 20px;
+    }
+    
+    input#new-task {
+        float: left;
+        width: 318px;
+    }
+    
+    p > button:hover {
+        color: #0FC57C;
+    }
+    
+    
+    /* Task list */
+    
+    li {
+        overflow: hidden;
+        padding: 20px 0;
+        border-bottom: 1px solid #eee;
+    }
+    
+    li > input[type="checkbox"] {
+        margin: 0 10px;
+        position: relative;
+        top: 15px;
+    }
+    
+    li > label {
+        font-size: 18px;
+        line-height: 40px;
+        width: 237px;
+        padding: 0 0 0 11px;
+    }
+    
+    li > input[type="text"] {
+        width: 226px;
+    }
+    
+    li > .delete:hover {
+        color: #CF2323;
+    }
+    
+    
+    /* Completed */
+    
+    #completed-tasks label {
+        text-decoration: line-through;
+        color: #888;
+    }
+
+    
+
+    /*Markbook page */
+
+    .mrk-head{
+
+      text-align: center;
+      height: 40px;
+      font-weight: bold;
+      border: 1px solid #12263a;
+      padding: 8px; 
+      background-color: #12263a;
+      color: aliceblue;
+    }
+
+    .mrk-row{
+      height: 40px;
+      background-color: #f4edea;
+      border: 1px solid #12263a;
+    }
+
+    .fa-plus-circle{
+      font-size: 25px;
+      color: white;
+      padding: 7px;
+      margin-left: 93%;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+    }
+
+    .mrk-name{
+      width: 25%;
+      font-weight: bold;
+      text-align: center;
+      height: 40px;
+      border: 1px solid #12263a;
+      padding: 8px; 
+      background-color: #12263a;
+      color: aliceblue;
+    }
+
+    .mrk-mrk{
+      width: 10%;
+      font-weight: bold;
+      text-align: center;
+      height: 40px;
+      border: 1px solid #12263a;
+      padding: 8px; 
+      background-color: #12263a;
+      color: aliceblue;
+    }
+
+    .mrk-schcls{
+     height: 4px;
+     background-color: lightgrey;
+     border-bottom:1px solid #12263a;
+     border-left:1px solid #12263a;
+     border-right: lightgrey;
+     font-size: small;
+     font-weight: bold;
+    }
+
+    .mark-class{
+      margin-bottom: 100px;
+    }
+
+    
+
+    
+
+    
+  
+    
+
+    /* Responsive Screen */
+
+    @media screen and (max-width:700px) {
+
+      /* Nav Bar responsive screen */
+
+    #mySidenav a {
+      position: absolute; /* Position them relative to the browser window */
+      left: -110px; /* Position them outside of the screen */
+      transition: 0.3s; /* Add transition on hover */
+      padding: 15px; /* 15px padding */
+      width: 120px; /* Set a specific width */
+      text-decoration: none; /* Remove underline */
+      font-size: 15px; /* Increase font size */
+      color: white; /* White text color */
+      border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+    }
+
+    .fa-home{
+      font-size: 15px;
+      padding-left: 62px;
+    }
+
+    .fa-user-circle{
+      font-size: 15px;
+      padding-left: 30px;
+    }
+
+   .fa-clipboard-list{
+     font-size: 15px;
+     padding-left: 49px;
+   }
+
+   .fa-pencil-alt{
+    font-size: 15px;
+    padding-left: 35px;
+   }
+
+    /* Flip Card responsive screen */
+
+   .flip-card {
+    background-color: transparent;
+    width: 150px;
+    height: 150px;
+    padding-left: 150px;
+    padding-top: 5%;
+  }
+  
+
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 85%;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    background-image:url("Flip-Card\ bg.webp");
+    color: white;
+  }
+  
+  .flip-card-back {
+    background-color: #FFEFD3;
+    color: black;
+    transform: rotateY(180deg);
+  }
+     
+   }
+
+   
+
+    
+             
+              
+    
+    
+              
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
