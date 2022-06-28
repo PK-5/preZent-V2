@@ -1,41 +1,41 @@
 html{
 
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-color: #f4edea;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; /* font style for the html */
+    background-color: #f4edea;/* background colour for html tags */
     
     }
     
     .body{
-      background-color: #f4edea;
+      background-color: #f4edea; /* background colour for all body tags*/
     }
     
     .footer{
-      background-color: #750D37;
-      position: fixed;
-      left: 0;
-      bottom: 0;
-      width: 100%;
+      background-color: #750D37;/* background colour for footer */
+      position: fixed; /* making the footer sticky */
+      left: 0; /* making the footer sticky to side of the webpage*/
+      bottom: 0; /* making the footer sticky to the botoom of the webpage*/
+      width: 100%; /* making the footer span the whole webpage */
     }
 
     .title{
-      padding-left: 5%;
-      font-size: 40px;
-      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-      text-align: center;
+      padding-left: 5%; /* giving it padding */
+      font-size: 40px; /* changing the font size */
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; /* changing the font */
+      text-align: center; /* Making it appear in the center */
     }
     
     hr{
-      width: 85%;
-      text-align: center;
-      border: 1px solid black;
-      margin-bottom: 30px;
+      width: 85%; /* making it span some of the webpage not all of it */
+      text-align: center; /* aligning it to the center */
+      border: 1px solid black; /* making it black and adjusting the width */
+      margin-bottom: 30px; /* giving it a margin */
     }
     
     .fa-question-circle{
-      font-size: 30px;
-      color: white;
-      padding: 7px;
-      margin-left: 95%;
+      font-size: 30px; /* changing the font size */
+      color: white;/* changing the colour */
+      padding: 7px; /* giving it padding */
+      margin-left: 95%; /* Giving it a margin so it is on the left of the webpage */
     }
 
     .welcome1{
