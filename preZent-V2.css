@@ -139,65 +139,7 @@ html{
         
 
     
-    /* Planner Page */
-    
-    /* Planner (Table)*/
-    
-             table {
-              font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-              width: 80%;
-              margin-left: 200px;
-            }
-    
-            .plan-margin{
-              margin-top: 50px;
-            }
-    
-            th{
-              border: 1px solid #dddddd;
-              text-align: left;
-              padding: 8px; 
-            }
-            
-            td{
-              border: 1px solid white;
-              text-align: left;
-              padding: 8px;
-              height: 100px;
-            }
-            
-           
-            .planner{
-              padding-left: 200px;
-              text-align: center;
-              color: #294c60;
-            }
-    
-            .plan-row{
-              text-align: center;
-              font-size: 20px;
-              background-color: #294c60;
-              color: aliceblue;
-              padding-bottom: 20px;
-            }
-    
-            .atdbody{
-              background-color: #adb6c4;
-            }
-    
-            .classes{
-              width: 150px;
-              text-align: center;
-              background-color: #294c60;
-              color: aliceblue; 
-              padding-bottom: 20px;
-              font-size: 20px;
-            }
-    
-            .plan-color{
-              background-color: #adb6c4;
-            }
-    
+   
     
           /*Attendance Page */
     
@@ -211,15 +153,81 @@ html{
           }
     
           .class-head{
-            width: 60%
+            width: 60%;
+            font-weight: bold;
+            text-align: center;
+            height: 40px;
+            border: 1px solid #12263a;
+            padding: 8px; 
+            background-color: #12263a;
+            color: aliceblue;
           }
-    
-          .atdcol{
+
+          .atd-head2{
+            width: 40%;
+            font-weight: bold;
+            text-align: center;
+            height: 40px;
+            border: 1px solid #12263a;
+            padding: 8px; 
+            background-color: #12263a;
+            color: aliceblue;
+
+          }
+
+          .atdcol-head{
+            font-weight: bold;
             border: 1px solid #dddddd;
             text-align: left;
             padding: 8px;
-            height: 30px;
+            height: 60px;
+            background-color: #f4edea;
+            border-bottom:1px solid #12263a;
+            border-top:1px solid #12263a;
+            border-left:1px solid #12263a;
+            border-right: 1px solid #12263a;
           }
+
+          .atd-cls{
+            height: 4px;
+            background-color: lightgrey;
+            border-bottom:1px solid #12263a;
+            border-left:1px solid #12263a;
+            border-right: lightgrey;
+            font-size: small;
+            font-weight: bold;
+           }
+           .atd-cls-mid{
+            height: 4px;
+            background-color: lightgrey;
+            border-bottom:lightgray;
+            border-left:lightgray;
+            border-right:1px solid #12263a ;
+            font-size: small;
+            font-weight: bold;
+           }
+
+           .atd-cls-side{
+            height: 4px;
+            background-color: lightgrey;
+            border-bottom:lightgray;
+            border-left:lightgray;
+            border-right: 1px solid #12263a;
+            font-size: small;
+            font-weight: bold;
+           }
+
+           .atd-row{
+              height: 40px;
+              background-color: #f4edea;
+              border: 1px solid #12263a;
+              text-align: left;
+              padding: 8px;
+              height: 30px;
+            
+           }
+    
+      
           table {
             font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
             width: 80%;
@@ -232,13 +240,7 @@ html{
             padding: 8px; 
           }
          
-          .atdcol-head{
-            font-weight: bold;
-            border: 1px solid #dddddd;
-            text-align: left;
-            padding: 8px;
-            height: 60px;
-          }
+        
     
           /* Attendance Flip cards */
           .flip-card {
@@ -309,13 +311,6 @@ html{
     }
 
 
-    .calender{
-      text-align: center;
-      color: black;
-      padding-top: 10px;
-      font-size: 30px;
-    }
-    
     table {
       border-collapse: collapse;
       background: white;
@@ -324,177 +319,6 @@ html{
       text-align:center;
     }
     
-    
-    .cal-header{
-      color: white; 
-      background: #001B2E;
-      font-weight: bold;
-      text-align: center;
-      background-color: #294c60;
-    }
-    
-    .cal-color{
-      background-color: #ADB6C4;
-    }
-    
-    caption{
-      text-align: top;
-    }
-    
-    .cal-{
-      border-collapse: collapse;
-      background-color: grey;
-      color: black;
-      text-align:center;
-    }
-    
-    /*To-do list */
-    
-    /* Basic Style */
-    
-    body {
-        background: #fff;
-        color: #333;
-        font-family: Lato, sans-serif;
-        background-color:#e4e4e4;
-    }
-    
-    .container {
-        display: block;
-        width: 400px;
-        margin: 10px auto 100px;
-        background-color:#fff;
-        padding:0px 10px 10px 10px;
-        border-radius:10px
-    }
-    
-    h2 {
-        text-align:center;
-        padding-top:10px;
-        margin-bottom:0px;
-    }
-    
-    ul {
-        margin: 0;
-        padding: 0;
-    }
-    
-    li * {
-        float: left;
-    }
-    
-    li,
-    h3 {
-        clear: both;
-        list-style: none;
-    }
-    
-    input,
-    button {
-        outline: none;
-    }
-    
-    button {
-        background: none;
-        border: 0px;
-        color: #888;
-        font-size: 15px;
-        width: 60px;
-        margin: 10px 0 0;
-        font-family: Lato, sans-serif;
-        cursor: pointer;
-    }
-    
-    button:hover {
-        color: #333;
-    }
-    
-    
-    /* Heading */
-    
-    h3,
-    label[for='new-task'] {
-        color: #333;
-        font-weight: 700;
-        font-size: 15px;
-        border-bottom: 2px solid #333;
-        padding: 20px 0 10px;
-        margin: 0;
-        text-transform: uppercase;
-    }
-    
-    input[type="text"] {
-        margin: 0;
-        font-size: 18px;
-        line-height: 18px;
-        height: 18px;
-        padding: 10px;
-        border: 1px solid #ddd;
-        background: #fff;
-        border-radius: 6px;
-        font-family: Lato, sans-serif;
-        color: #888;
-    }
-    
-    input[type="text"]:focus {
-        color: #333;
-    }
-    
-    
-    /* New Task */
-    
-    label[for='new-task'] {
-        display: block;
-        margin: 0 0 20px;
-    }
-    
-    input#new-task {
-        float: left;
-        width: 318px;
-    }
-    
-    p > button:hover {
-        color: #0FC57C;
-    }
-    
-    
-    /* Task list */
-    
-    li {
-        overflow: hidden;
-        padding: 20px 0;
-        border-bottom: 1px solid #eee;
-    }
-    
-    li > input[type="checkbox"] {
-        margin: 0 10px;
-        position: relative;
-        top: 15px;
-    }
-    
-    li > label {
-        font-size: 18px;
-        line-height: 40px;
-        width: 237px;
-        padding: 0 0 0 11px;
-    }
-    
-    li > input[type="text"] {
-        width: 226px;
-    }
-    
-    li > .delete:hover {
-        color: #CF2323;
-    }
-    
-    
-    /* Completed */
-    
-    #completed-tasks label {
-        text-decoration: line-through;
-        color: #888;
-    }
-
     
 
     /*Markbook page */
@@ -654,7 +478,21 @@ html{
      
    }
 
-   
+  /* to put in its rightful place */ 
+
+  th{
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px; 
+  }
+  
+  td{
+    border: 1px solid white;
+    text-align: left;
+    padding: 8px;
+    height: 100px;
+  }
+  
 
     
              
