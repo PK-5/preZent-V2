@@ -38,8 +38,6 @@ html{
       margin-left: 95%; /* Giving it a margin so it is on the left of the webpage */
     }
 
-
-
     .welcome1{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -344,8 +342,7 @@ html{
       font-size: 25px;
       color: white;
       padding: 7px;
-      margin-left: 93%;
-      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      margin-left: 89%;
   
     }
 
@@ -383,6 +380,19 @@ html{
 
     .mark-class{
       margin-bottom: 100px;
+    }
+
+    .mrk-mid{
+      border-left: 1px solid lightgrey;
+      border-right: 1px solid lightgrey;
+      height: 10px;
+      border-bottom: 1px solid #12263a;
+    }
+
+    .mrk-side{
+      border-right:1px solid #12263a ;
+      border-bottom: 1px solid #12263a;
+      height: 10px;
     }
 
     
