@@ -24,7 +24,7 @@
       <hr></h1>
           
 
-          <table>
+          <table id="Schedule">
             <tr>
               <th class="class-head">Class: 10PS</th>
               <th class="atd-head2" > Date: 35 / 18 / 2205 </th>
@@ -44,11 +44,11 @@
               </tr>
             <tr>
 
-              <td class="atd-row" id="1">Simon Peter</td>
+              <td class="atd-row" >Simon Peter</td>
               <td class="atd-row">
-                <button class="present" onclick="pFunction1()">Present</button>
-                <button class="present" onclick="aFunction1()">Absent</button>
-                <button class="present"onclick="lFunction1()">Late</button>
+                <button class="present" id="present1" onclick="pFunction1()">Present</button>
+                <button class="absent" id="absent1"  onclick="aFunction1()">Absent</button>
+                <button class="late" id="late1" onclick="lFunction1()">Late</button>
               </td>
    
 
@@ -56,9 +56,9 @@
             <tr>
             <td class="atd-row" id="2">Maria Francis</td>
             <td class="atd-row">
-              <button class="present" onclick="pFunction2()">Present</button>
-              <button class="present" onclick="aFunction2()">Absent</button>
-              <button class="present"onclick="lFunction2()">Late</button>
+              <button class="present" id="present2" onclick="pFunction2()">Present</button>
+              <button class="absent" id="absent2" onclick="aFunction2()">Absent</button>
+              <button class="late" id="late2" onclick="lFunction2()">Late</button>
             </td>
       
           
@@ -67,13 +67,19 @@
             <tr>
             <td class="atd-row" id="3">Rina Smith</td>
             <td class="atd-row">
-              <button class="present" onclick="pFunction3()">Present</button>
-              <button class="present" onclick="aFunction3()">Absent</button>
-              <button class="present"onclick="lFunction3()">Late</button>
+              <button class="present" id="present3"  onclick="pFunction3()">Present</button>
+              <button class="absent" id="absent3" onclick="aFunction3()">Absent</button>
+              <button class="late" id="late3" onclick="lFunction3()">Late</button>
             </td>
        
               
             </tr>
+
+            <tr>
+              <td class="atd-row" >Total Present</td>
+              <td class="atd-row" id="total" onclick="totalFunction()"></td>  
+
+              </tr>
           
             
         

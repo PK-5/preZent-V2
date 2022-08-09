@@ -237,6 +237,24 @@ html{
             text-align: left;
             padding: 8px; 
           }
+
+          /* buttons */
+
+          .present{
+             font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+             width: 70px;
+             background-color:"";
+          }
+
+          .absent{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            width: 70px;
+         }
+
+         .late{
+          font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+          width: 70px;
+       }
          
         
     
@@ -316,6 +334,7 @@ html{
       background-color:lightgrey; 
       text-align:center;
     }
+    
     
     
 
