@@ -1,8 +1,13 @@
 //Attendance Present, Absent, Late buttons
 
+//Total student in a class and total present 
+
+var total = "0";
+var totalPresent = "0";
+
 // Student 1
 
-let present1 = document.querySelector("#present1")
+let present1 = document.querySelector("#present1") 
 let absent1 = document.querySelector("#absent1")
 let late1 = document.querySelector("#late1")
 
@@ -10,6 +15,9 @@ function pFunction1(){
     present1.style.background = ("#98BF64")
     absent1.style.background = ("#EFEFEF")
     late1.style.background = ("#EFEFEF")
+
+    total += 1;
+    total += 1;
 
 }
 
@@ -77,23 +85,17 @@ function lFunction3(){
 
 //Total students
 
-let total = document.querySelector("#total")
 
 function totalFunction(){
 
-   let wholeTable = document.querySelector("#Schedule").rows.length;
-   var buttonColor = wholeTable.rows[i].cells[0].getAttribute('bgcolor'); }
-   if (bgcolour = "#98BF64") {
-    
-   }
-   for (var i = 0; i < wholeTable.rows.length-4; i++) {
    
-  
-
-   let totalPresent = 
-   totalCalculated = wholeTable + -4 ;
-   total.innerHTML= totalCalculated
 }
+
+
+
+
+   
+    
 
 // Schedule 
 
@@ -107,3 +109,23 @@ function totalFunction(){
         //window.getSelection().getRangeAt(0).surroundContents(a)
 //}
 //document.onkeydown = linkFunction();
+
+
+//what colour?
+// var pInfo= document.querySelector(".present");
+    //var bgColour= pInfo.style.background;
+   
+    //if (bgColour == "rgb(152, 191, 100)") {
+      //  alert("It's Green");    
+
+        //for (var totalPresent = 0; totalPresent < table ; totalPresent++) {
+            
+          //  console.log(totalPresent);
+
+             //total.innerHTML= totalPresent;
+            
+            //}
+    
+   // } else {
+     //   alert("It's not green");
+    //}
