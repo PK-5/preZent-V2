@@ -2,8 +2,8 @@
 
 //Total student in a class and total present 
 
-var total = "0";
-var totalPresent = "0";
+var total = 0;
+var totalPresent = 0;
 
 // Student 1
 
@@ -17,7 +17,7 @@ function pFunction1(){
     late1.style.background = ("#EFEFEF")
 
     total += 1;
-    total += 1;
+    totalPresent += 1;
 
 }
 
@@ -25,12 +25,17 @@ function aFunction1(){
     absent1.style.background = ("#BC544B")
     present1.style.background = ("#EFEFEF")
     late1.style.background = ("#EFEFEF")
+
+    total+= 1;
 }
 
 function lFunction1(){
    late1.style.background = ("#ED820E")
    absent1.style.background = ("#EFEFEF")
    present1.style.background = ("#EFEFEF")
+
+   total += 1;
+   totalPresent += 1;
 }
 
 
@@ -45,18 +50,26 @@ function pFunction2(){
     absent2.style.background = ("#EFEFEF")
     late2.style.background = ("#EFEFEF")
 
+    total += 1;
+    totalPresent += 1;
+
 }
 
 function aFunction2(){
     absent2.style.background = ("#BC544B")
     present2.style.background = ("#EFEFEF")
     late2.style.background = ("#EFEFEF")
+
+    total += 1;
 }
 
 function lFunction2(){
     late2.style.background = ("#ED820E")
     absent2.style.background = ("#EFEFEF")
     present2.style.background = ("#EFEFEF")
+
+    total += 1;
+    totalPresent += 1;
 }
 
 // Student 3
@@ -69,27 +82,51 @@ function pFunction3(){
     present3.style.background = ("#98BF64")
     absent3.style.background = ("#EFEFEF")
     late3.style.background = ("#EFEFEF")
+
+    total += 1;
+    totalPresent += 1;
 }
 
 function aFunction3(){
     absent3.style.background = ("#BC544B")
     present3.style.background = ("#EFEFEF")
     late3.style.background = ("#EFEFEF")
+
+    total += 1;
 }
 
 function lFunction3(){
     late3.style.background = ("#ED820E")
     absent3.style.background = ("#EFEFEF")
     present3.style.background = ("#EFEFEF")
+
+    total += 1;
+    totalPresent += 1;
 }
 
 //Total students
 
+var studentsPresent = document.querySelector("#total");
 
 function totalFunction(){
 
-   
+       let Present = (totalPresent/total)*100 ;
+       if (Present > 80 ) {
+
+        const pComments = ["The attendance is good today", "It seems to be a good day to teach key information", " Most of the students are inclass today "];
+        for (let p = 0; p < pComments.length; p++) {
+         alert(pComments[p])
+        
+       }
+         } else {
+          alert("The attendance is low today ");
+        
+         }
+      
+         
 }
+
+
 
 
 
