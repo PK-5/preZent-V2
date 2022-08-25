@@ -10,6 +10,12 @@
       <script src="https://kit.fontawesome.com/0d0c94afa5.js" crossorigin="anonymous"></script>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">  <!--making the webpage responsive-->
       <link rel="icon" href="favicon.png">  <!--favicon-->
+      <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous">
+    </script>
+    
     </head>
 
     <body class="body">
@@ -21,6 +27,8 @@
 
       </div>
       <h1 class="title"> Attendance</h1>
+
+
       <hr></h1>
           
 
@@ -76,6 +84,28 @@
             </tr>
 
             <tr>
+              <td class="atd-row" id="4">Alex Matthew</td>
+              <td class="atd-row">
+                <button class="present" id="present4"  onclick="pFunction4()">Present</button>
+                <button class="absent" id="absent4" onclick="aFunction4()">Absent</button>
+                <button class="late" id="late4" onclick="lFunction4()">Late</button>
+              </td>
+         
+                
+              </tr>
+
+              <tr>
+                <td class="atd-row" id="5">Constance Indu </td>
+                <td class="atd-row">
+                  <button class="present" id="present5"  onclick="pFunction5()">Present</button>
+                  <button class="absent" id="absent5" onclick="aFunction5()">Absent</button>
+                  <button class="late" id="late5" onclick="lFunction5()">Late</button>
+                </td>
+           
+                  
+                </tr>
+
+            <tr>
               <td class="atd-row" >Total Present</td>
               <td class="atd-row" id="total" onclick="totalFunction()"></td>  
 
@@ -91,6 +121,7 @@
   
     
     <script src="preZent-V2.js" async defer></script><!--linking the webpage to the Javascript-->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.29/dist/sweetalert2.all.min.js"></script>
  
     </body>
 </html>

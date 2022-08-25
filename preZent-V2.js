@@ -104,35 +104,112 @@ function lFunction3(){
     totalPresent += 1;
 }
 
+// Student 4
+
+let present4 = document.querySelector("#present4")
+let absent4 = document.querySelector("#absent4")
+let late4 = document.querySelector("#late4")
+
+function pFunction4(){
+    present4.style.background = ("#98BF64")
+    absent4.style.background = ("#EFEFEF")
+    late4.style.background = ("#EFEFEF")
+
+    total += 1;
+    totalPresent += 1;
+}
+
+function aFunction4(){
+    absent4.style.background = ("#BC544B")
+    present4.style.background = ("#EFEFEF")
+    late4.style.background = ("#EFEFEF")
+
+    total += 1;
+}
+
+function lFunction3(){
+    late4.style.background = ("#ED820E")
+    absent4.style.background = ("#EFEFEF")
+    present4.style.background = ("#EFEFEF")
+
+    total += 1;
+    totalPresent += 1;
+}
+
+// Student 5
+
+let present5 = document.querySelector("#present5")
+let absent5 = document.querySelector("#absent5")
+let late5 = document.querySelector("#late5")
+
+function pFunction5(){
+    present5.style.background = ("#98BF64")
+    absent5.style.background = ("#EFEFEF")
+    late5.style.background = ("#EFEFEF")
+
+    total += 1;
+    totalPresent += 1;
+}
+
+function aFunction5(){
+    absent5.style.background = ("#BC544B")
+    present5.style.background = ("#EFEFEF")
+    late5.style.background = ("#EFEFEF")
+
+    total += 1;
+}
+
+function lFunction5(){
+    late5.style.background = ("#ED820E")
+    absent5.style.background = ("#EFEFEF")
+    present5.style.background = ("#EFEFEF")
+
+    total += 1;
+    totalPresent += 1;
+}
+
 //Total students
+
 
 var studentsPresent = document.querySelector("#total");
 
 function totalFunction(){
 
-       let Present = (totalPresent/total)*100 ;
-       if (Present > 80 ) {
 
-        const pComments = ["The attendance is good today", "It seems to be a good day to teach key information", " Most of the students are inclass today "];
-        for (let p = 0; p < pComments.length; p++) {
-         alert(pComments[p])
+       let Present = (totalPresent/total)*100 ;
+       if (Present >= 80 ) {
+
+        Swal.fire({
+            position: 'bottom-end',
+            icon: 'info',
+            iconColor: '#98BF64',
+            title: 'The attendance is above 80% it seems to be a good day to teach key information',
+            showConfirmButton: false,
+            timer: 2500,
+            timerProgressBar: true,
+            
+
+          })
+
+          studentsPresent.innerHTML = totalPresent;
         
-       }
          } else {
-          alert("The attendance is low today ");
+
+             Swal.fire({
+            position: 'bottom-end',
+            icon: 'info',
+            iconColor:'#BC544B',
+            title: 'The attendance is below 80% today consider replanning the lesson',
+            showConfirmButton: false,
+            timer: 2500,
+            timerProgressBar: true,
+          })
         
          }
       
          
 }
-
-
-
-
-
-
-   
-    
+ 
 
 // Schedule 
 
