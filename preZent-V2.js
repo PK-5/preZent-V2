@@ -1,8 +1,13 @@
 //Attendance Present, Absent, Late buttons
 
+//Total student in a class and total present 
+
+var total = 0;
+var totalPresent = 0;
+
 // Student 1
 
-let present1 = document.querySelector("#present1")
+let present1 = document.querySelector("#present1") 
 let absent1 = document.querySelector("#absent1")
 let late1 = document.querySelector("#late1")
 
@@ -11,18 +16,26 @@ function pFunction1(){
     absent1.style.background = ("#EFEFEF")
     late1.style.background = ("#EFEFEF")
 
+    total += 1;
+    totalPresent += 1;
+
 }
 
 function aFunction1(){
     absent1.style.background = ("#BC544B")
     present1.style.background = ("#EFEFEF")
     late1.style.background = ("#EFEFEF")
+
+    total+= 1;
 }
 
 function lFunction1(){
    late1.style.background = ("#ED820E")
    absent1.style.background = ("#EFEFEF")
    present1.style.background = ("#EFEFEF")
+
+   total += 1;
+   totalPresent += 1;
 }
 
 
@@ -37,18 +50,26 @@ function pFunction2(){
     absent2.style.background = ("#EFEFEF")
     late2.style.background = ("#EFEFEF")
 
+    total += 1;
+    totalPresent += 1;
+
 }
 
 function aFunction2(){
     absent2.style.background = ("#BC544B")
     present2.style.background = ("#EFEFEF")
     late2.style.background = ("#EFEFEF")
+
+    total += 1;
 }
 
 function lFunction2(){
     late2.style.background = ("#ED820E")
     absent2.style.background = ("#EFEFEF")
     present2.style.background = ("#EFEFEF")
+
+    total += 1;
+    totalPresent += 1;
 }
 
 // Student 3
@@ -61,23 +82,96 @@ function pFunction3(){
     present3.style.background = ("#98BF64")
     absent3.style.background = ("#EFEFEF")
     late3.style.background = ("#EFEFEF")
+
+    total += 1;
+    totalPresent += 1;
 }
 
 function aFunction3(){
     absent3.style.background = ("#BC544B")
     present3.style.background = ("#EFEFEF")
     late3.style.background = ("#EFEFEF")
+
+    total += 1;
 }
 
 function lFunction3(){
     late3.style.background = ("#ED820E")
     absent3.style.background = ("#EFEFEF")
     present3.style.background = ("#EFEFEF")
+
+    total += 1;
+    totalPresent += 1;
+}
+
+// Student 4
+
+let present4 = document.querySelector("#present4")
+let absent4 = document.querySelector("#absent4")
+let late4 = document.querySelector("#late4")
+
+function pFunction4(){
+    present4.style.background = ("#98BF64")
+    absent4.style.background = ("#EFEFEF")
+    late4.style.background = ("#EFEFEF")
+
+    total += 1;
+    totalPresent += 1;
+}
+
+function aFunction4(){
+    absent4.style.background = ("#BC544B")
+    present4.style.background = ("#EFEFEF")
+    late4.style.background = ("#EFEFEF")
+
+    total += 1;
+}
+
+function lFunction3(){
+    late4.style.background = ("#ED820E")
+    absent4.style.background = ("#EFEFEF")
+    present4.style.background = ("#EFEFEF")
+
+    total += 1;
+    totalPresent += 1;
+}
+
+// Student 5
+
+let present5 = document.querySelector("#present5")
+let absent5 = document.querySelector("#absent5")
+let late5 = document.querySelector("#late5")
+
+function pFunction5(){
+    present5.style.background = ("#98BF64")
+    absent5.style.background = ("#EFEFEF")
+    late5.style.background = ("#EFEFEF")
+
+    total += 1;
+    totalPresent += 1;
+}
+
+function aFunction5(){
+    absent5.style.background = ("#BC544B")
+    present5.style.background = ("#EFEFEF")
+    late5.style.background = ("#EFEFEF")
+
+    total += 1;
+}
+
+function lFunction5(){
+    late5.style.background = ("#ED820E")
+    absent5.style.background = ("#EFEFEF")
+    present5.style.background = ("#EFEFEF")
+
+    total += 1;
+    totalPresent += 1;
 }
 
 //Total students
 
-let total = document.querySelector("#total")
+
+var studentsPresent = document.querySelector("#total");
 
 function totalFunction(){
 
@@ -95,6 +189,10 @@ function totalFunction(){
    total.innerHTML= totalCalculated
 }
 
+         
+}
+ 
+
 // Schedule 
 
 //prgramming ctrl + k
@@ -107,209 +205,3 @@ function totalFunction(){
         //window.getSelection().getRangeAt(0).surroundContents(a)
 //}
 //document.onkeydown = linkFunction();
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
