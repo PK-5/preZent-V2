@@ -335,9 +335,6 @@ html{
       text-align:center;
     }
     
-    
-    
-
     /*Markbook page */
 
     .mrk-head{
@@ -398,7 +395,9 @@ html{
     }
 
     .mark-class{
-      margin-bottom: 100px;
+      margin-left: 150px;
+      margin-top: 25px;
+      margin-bottom: 100px
     }
 
     .mrk-mid{
@@ -412,16 +411,36 @@ html{
       border-right:1px solid #12263a ;
       border-bottom: 1px solid #12263a;
       height: 10px;
+      text-align: right;
+      font-weight: bold;
+      font-size: small;
     }
 
-    
+    /* Topic - Markbook */
 
-    
-
-    
+    .topic-section{
+      margin: auto;
+      max-width: 300px;
+      width: 100%;
+      background: #fff;
+      border-radius: 50px;
+      padding: 25px;
+  }
   
-    
+  .topic-section header{
+      font-size: 20px;
+      font-weight: 600;
+  }
 
+  input{
+    width: 50%;
+    height: 100%;
+    border: 1px solid #ccc;
+    font-size: 15px;
+    border-radius: 3px;
+    padding-left: 15px;
+}
+     
     /* Responsive Screen */
 
     @media screen and (max-width:700px) {
@@ -506,15 +525,6 @@ html{
   }
      
    }
-  
-  
-
-    
-  
-
-
-
-    
 
   /* to put in its rightful place */ 
 
