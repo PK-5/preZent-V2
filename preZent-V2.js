@@ -127,7 +127,7 @@ function aFunction4(){
     total += 1;
 }
 
-function lFunction3(){
+function lFunction4(){
     late4.style.background = ("#ED820E")
     absent4.style.background = ("#EFEFEF")
     present4.style.background = ("#EFEFEF")
