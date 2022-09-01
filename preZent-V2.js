@@ -175,40 +175,22 @@ var studentsPresent = document.querySelector("#total");
 
 function totalFunction(){
 
+   let wholeTable = document.querySelector("#Schedule").rows.length;
+   var buttonColor = wholeTable.rows[i].cells[0].getAttribute('bgcolor'); }
+   if (bgcolour = "#98BF64") {
+    
+   }
+   for (var i = 0; i < wholeTable.rows.length-4; i++) {
+   
+  
 
-       let Present = (totalPresent/total)*100 ;
-       if (Present >= 80 ) {
-
-        Swal.fire({
-            position: 'bottom-end',
-            icon: 'info',
-            iconColor: '#98BF64',
-            title: 'The attendance is above 80% it seems to be a good day to teach key information',
-            showConfirmButton: false,
-            timer: 2500,
-            timerProgressBar: true,
-            
-
-          })
-
-          studentsPresent.innerHTML = totalPresent;
-        
-         } else {
-
-             Swal.fire({
-            position: 'bottom-end',
-            icon: 'info',
-            iconColor:'#BC544B',
-            title: 'The attendance is below 80% today consider replanning the lesson',
-            showConfirmButton: false,
-            timer: 2500,
-            timerProgressBar: true,
-          })
-        
-         }
-      
-         
+   let totalPresent = 
+   totalCalculated = wholeTable + -4 ;
+   total.innerHTML= totalCalculated
 }
+
+         
+
  
 
 // Schedule 
@@ -223,23 +205,3 @@ function totalFunction(){
         //window.getSelection().getRangeAt(0).surroundContents(a)
 //}
 //document.onkeydown = linkFunction();
-
-
-//what colour?
-// var pInfo= document.querySelector(".present");
-    //var bgColour= pInfo.style.background;
-   
-    //if (bgColour == "rgb(152, 191, 100)") {
-      //  alert("It's Green");    
-
-        //for (var totalPresent = 0; totalPresent < table ; totalPresent++) {
-            
-          //  console.log(totalPresent);
-
-             //total.innerHTML= totalPresent;
-            
-            //}
-    
-   // } else {
-     //   alert("It's not green");
-    //}
