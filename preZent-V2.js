@@ -127,7 +127,7 @@ function aFunction4(){
     total += 1;
 }
 
-function lFunction3(){
+function lFunction4(){
     late4.style.background = ("#ED820E")
     absent4.style.background = ("#EFEFEF")
     present4.style.background = ("#EFEFEF")
@@ -173,24 +173,38 @@ function lFunction5(){
 
 var studentsPresent = document.querySelector("#total");
 
+
 function totalFunction(){
 
-   let wholeTable = document.querySelector("#Schedule").rows.length;
-   var buttonColor = wholeTable.rows[i].cells[0].getAttribute('bgcolor'); }
-   if (bgcolour = "#98BF64") {
-    
+    let Present = (totalPresent/total)*100 ;
+    console.log(Present)
+
+    if (Present >= 80 ) {
+
+        Swal.fire({
+            position: 'bottom-end',
+            icon: 'info',
+            iconColor: '#98BF64',
+            title: 'The attendance is above 80% it seems to be a good day to teach key information',
+            showConfirmButton: false,
+            timer: 2500,
+            timerProgressBar: true,
+
+
+          })
+} else {
+    Swal.fire({
+      position: 'bottom-end',
+      icon: 'info',
+      iconColor:'#BC544B',
+      title: 'The attendance is below 80% today consider replanning the lesson',
+      showConfirmButton: false,
+      timer: 2500,
+      timerProgressBar: true,
+    })
+
    }
-   for (var i = 0; i < wholeTable.rows.length-4; i++) {
-   
-  
-
-   let totalPresent = 
-   totalCalculated = wholeTable + -4 ;
-   total.innerHTML= totalCalculated
 }
-
-         
-
  
 
 // Schedule 

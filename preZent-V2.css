@@ -238,6 +238,12 @@ html{
             padding: 8px; 
           }
 
+          .submit {
+            background-color: #750D37;
+            color: #f4edea;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+          }
+
           /* buttons */
 
           .present{
