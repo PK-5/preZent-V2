@@ -91,22 +91,22 @@ html{
               /* The index link: 20px from the top with a background */
               #index {
                 top: 30px;
-                background-color: #750D37; /* Papaya Whip */
+                background-color: #750D37; /*  */
               }
               
               #atd {
                 top: 100px;
-                background-color:  #750D37; /* Papaya Whip */
+                background-color:  #750D37; /*  */
               }
               
               #mark {
-                top: 170px;
-                background-color:  #750D37; /* Papaya Whip  */
+                top: 240px;
+                background-color:  #750D37; /* p  */
               }
               
               #schedule{
-                top: 240px;
-                background-color:  #750D37 /* Papaya Whip */
+                top: 170px;
+                background-color:  #750D37 /* */
               }
   
               .fa-home{
