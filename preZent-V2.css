@@ -304,6 +304,8 @@ html{
       background-color: #FFEFD3;
       color: black;
       transform: rotateY(180deg);
+      display: block;
+      text-decoration: none;
     }
     
     /* Schedule page */
