@@ -548,7 +548,26 @@ html{
     padding: 8px;
     height: 100px;
   }
-  
+
+  .container{
+    display: inline-block;
+    margin-left: 40%;
+    
+  }
+  .typed-out{
+    overflow: hidden;
+    border-right: .15em solid #750D37;
+    white-space: nowrap;
+    animation: typing 1s steps(20, end) forwards;
+    font-size: 1.6rem;
+    width: 0;
+    
+    
+  }
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
 
     
              
