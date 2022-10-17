@@ -91,22 +91,22 @@ html{
               /* The index link: 20px from the top with a background */
               #index {
                 top: 30px;
-                background-color: #750D37; /* Papaya Whip */
+                background-color: #750D37; /*  */
               }
               
               #atd {
                 top: 100px;
-                background-color:  #750D37; /* Papaya Whip */
+                background-color:  #750D37; /*  */
               }
               
               #mark {
-                top: 170px;
-                background-color:  #750D37; /* Papaya Whip  */
+                top: 240px;
+                background-color:  #750D37; /* p  */
               }
               
               #schedule{
-                top: 240px;
-                background-color:  #750D37 /* Papaya Whip */
+                top: 170px;
+                background-color:  #750D37 /* */
               }
   
               .fa-home{
@@ -304,6 +304,8 @@ html{
       background-color: #FFEFD3;
       color: black;
       transform: rotateY(180deg);
+      display: block;
+      text-decoration: none;
     }
     
     /* Schedule page */
@@ -549,7 +551,26 @@ html{
     padding: 8px;
     height: 100px;
   }
-  
+
+  .container{
+    display: inline-block;
+    margin-left: 40%;
+    
+  }
+  .typed-out{
+    overflow: hidden;
+    border-right: .15em solid #750D37;
+    white-space: nowrap;
+    animation: typing 1s steps(20, end) forwards;
+    font-size: 1.6rem;
+    width: 0;
+    
+    
+  }
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
 
     
              
