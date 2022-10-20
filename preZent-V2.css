@@ -48,6 +48,8 @@ html{
     font-weight: 10;
   
     
+  
+    
     }
     
     .welcome{
@@ -138,7 +140,28 @@ html{
              }
     
         
+             .help{
+              text-align: center;
+              font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+              padding-bottom: 0px;
+              padding-top: 250px;
+              font-size:35px;
+              color: black;
+              font-weight: 10;
+             }
+            
+              .help1{
+                margin: 45%;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+              }
 
+              .video1{
+                margin-left: 32%;
+                width: 600px;
+                height: 450px;
+              }
+                
+            
     
    
     
