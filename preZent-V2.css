@@ -311,6 +311,20 @@ html{
     }
     
     /* Schedule page */
+
+    #todo{
+      margin-left: 125px;
+      font-size: 30px;
+      margin-top: 30px;
+      color: white;
+      position: absolute;
+      background-color: #12263a;
+      width: 45px;
+      padding: 3px 5px;
+      border-radius: 3px;
+      text-align: center;
+      cursor: pointer;
+    }
     
     
     .sch{
@@ -450,6 +464,9 @@ html{
     border-radius: 3px;
     padding-left: 15px;
 }
+
+
+
      
     /* Responsive Screen */
 
@@ -570,6 +587,8 @@ html{
     from { width: 0 }
     to { width: 100% }
   }
+
+  
 
     
              
