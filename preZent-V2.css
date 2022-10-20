@@ -44,7 +44,9 @@ html{
     padding-bottom: 0px;
     padding-top: 250px;
     font-size:35px;
-    color: black
+    color: black;
+    font-style: italic;
+    
     }
     
     .welcome{
