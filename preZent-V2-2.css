@@ -1,9 +1,19 @@
+/* To-do List CSS */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700$display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+}
+
+#schBtn{
+    font-size: 50px;
+    margin-left: 1445px;
+    margin-top: 0px;
+    color: #750D37;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 5px 10px;
 }
 
 body{
@@ -14,6 +24,7 @@ body{
 
 .wrapper{
     margin: 200px auto;
+    margin-top: 110px;
     max-width: 385px;
     max-height: 500px;
     width: 100%;
@@ -67,8 +78,6 @@ body{
 
 }
 
-
-
 .todoList li{
     list-style: none;
     height: 45px;
@@ -115,9 +124,9 @@ body{
     border: none;
     outline: none;
     cursor: pointer;
+    opacity: 0.6;
+    pointer-events: none;
 }
-
-
 
 .footer button.active{
     opacity: 1;
