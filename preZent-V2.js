@@ -1,15 +1,3 @@
-//Index page loop (PK)
-
-const welcome = ["Welcome .", "स्वागत है .", "Nau mai haere mai.", "你好.", "Bonjour"]; //creating an array of welcomes (PK)
-var arrayLength = welcome.length; // length of the array (PK)
-let display = document.querySelector(".welcome1") // creating a variable and allocating it with the <h1> tag where I want to display the welcomes (PK)
-let text = ""; // defining text as "" (PK)
-
-//for loop setting i=0 when the length of the array is less than i increase i by one  (PK)
-for (let i = 0; i < arrayLength; i++) { 
-  text += welcome[i] + " " ; //redefining text as welcome[i] i being the number at which it is in the array (PK)
-  display.innerHTML = text; // in the <h1> tag display text (PK)
-}
 
 //Attendance Present, Absent, Late buttons (PK)
 
@@ -193,7 +181,7 @@ function lFunction5(){
 //Total students
 
 var table = document.querySelector("#Attendance");//defining table as the attendance table (PK)
-var tableLength = table.rows.length; //calculating the total number of rows (PK)
+let tableLength = table.rows.length; //calculating the total number of rows (PK)
 
 //calculates the total percentage of students in a class (PK)
 function totalFunction(){
@@ -234,6 +222,9 @@ function totalFunction(){
 
    }
 }
+
+var myVideo = document.getElementById("video1"); 
+
 
  
 
