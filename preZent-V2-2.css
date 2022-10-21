@@ -7,6 +7,12 @@
     font-family: 'Poppins', sans-serif;
 }
 
+header{
+    margin-left: 20px;
+    position: absolute;
+    font-weight: bold;
+    font-size: 30px;
+}
 #schBtn{
     font-size: 50px;
     margin-left: 1445px;
@@ -24,9 +30,8 @@ body{
 
 .wrapper{
     margin: 200px auto;
-    margin-top: 110px;
+    margin-top: 50px;
     max-width: 385px;
-    max-height: 500px;
     width: 100%;
     background: #750D37;
     border-radius: 20px;
@@ -73,10 +78,24 @@ body{
 }
 
 .wrapper .todoList{
-    max-height: 300px;
+    max-height: 330px;
     overflow-y: auto; 
-
 }
+
+.todoList::-webkit-scrollbar {
+    width: 12px; /* width of the entire scrollbar */         
+  }
+  
+  .todoList::-webkit-scrollbar-track {
+    background: #f4edea; /* color of the tracking area */
+    border-radius: 10px;        
+  }
+  
+  .todoList::-webkit-scrollbar-thumb {
+    background-color: #750D37;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid #f4edea;  /* creates padding around scroll thumb */
+  }
 
 .todoList li{
     list-style: none;
