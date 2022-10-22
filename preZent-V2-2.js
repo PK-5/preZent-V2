@@ -1,4 +1,5 @@
-//getting all required elements
+//To-Do List JS (SP)
+//getting all required elements 
 const inputBox = document.querySelector(".inputField input");
 const addBtn = document.querySelector(".inputField button");
 const todoList = document.querySelector(".todoList");
@@ -61,7 +62,6 @@ function showTasks(){
         deleteAllBtn.classList.add("active"); //activate the clearall button
     }else{
         deleteAllBtn.classList.remove("active"); //deactivate the clearall button
-
     }
     let newLiTag = '';
     listArray.forEach((element, index) => {
@@ -70,6 +70,7 @@ function showTasks(){
     todoList.innerHTML = newLiTag; //adding new li tag inside ul tag 
     inputBox.value = ""; //once task is added leave the input field blank
 }
+
 
 //delete task function
 function deleteTask(index){
